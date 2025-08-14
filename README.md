@@ -10,8 +10,6 @@ Perfect for privacy protection, avoiding spam, and quick sign-ups.
 
 ---
 
-## 🌐 Live Demo
-🔗 **[Click Here to Try It](https://diljith-kp.github.io/Diljith-kp/Temporary-Mail-Generator/)**
 
 ![Screenshot](https://i.ibb.co/bgRdrtDP/Screenshot-2025-08-15-023126.png)
 
