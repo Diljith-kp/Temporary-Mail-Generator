@@ -11,7 +11,7 @@ Perfect for privacy protection, avoiding spam, and quick sign-ups.
 ---
 
 
-![Screenshot](https://i.ibb.co/bgRdrtDP/Screenshot-2025-08-15-023126.png)
+![Screenshot](https://i.ibb.co/FkZk2XXw/Screenshot-2026-06-10-213955.png)
 
 ---
 
