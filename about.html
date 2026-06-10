@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="About TemporaryMail - Learn more about who we are."/>
+  <title>About Us - TemporaryMail</title>
+  <link rel="icon" href="https://i.ibb.co/QYDmh44/image-search-1664006558163.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-content container">
+      <div class="logo">Temporary Mail</div>
+      <nav class="nav">
+        <div class="hamburger-menu" onclick="toggleMenu()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="https://diljith.in/projects/temp-mail/">Home</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="privacy.html">Terms & Privacy</a></li>
+        </ul>
+      </nav>
+      <a href="https://diljith.in/" class="btn btn-header">Let's Connect</a>
+    </div>
+  </header>
+
+  <main style="padding: 60px 20px; max-width: 1100px; margin: auto; color: #f0f8ff; font-family: 'Poppins', sans-serif;">
+    <h1 style="font-size: 3rem; font-weight: 700; text-align: center; margin-bottom: 20px; color: #ffffff;">
+      About Temporary Mail
+    </h1>
+
+    <p style="max-width: 900px; margin: 0 auto 40px auto; font-size: 1.1rem; line-height: 1.8; text-align: center; color: #d0d0d0;">
+      Temporary Mail is designed to provide users with fast, anonymous, and disposable email addresses. Created with privacy in mind, our service allows users to create temporary emails instantly without the need for registration.
+    </p>
+
+    <section style="background-color: #1a1b26; border-radius: 12px; padding: 40px 30px; box-shadow: 0 0 20px rgba(0,0,0,0.4);">
+      <h2 style="font-size: 2rem; font-weight: 600; text-align: center; margin-bottom: 30px; color: #ffffff;">
+     Our Mission
+      </h2>
+      <p style="font-size: 1.1rem; color: #ccc; line-height: 1.7; text-align: center; max-width: 800px; margin: 0 auto;">
+        We believe in digital freedom. Our mission is to empower users to maintain their privacy and protect their inbox from spam, phishing, and unwanted emails by offering a secure and easy-to-use disposable email service.
+      </p>
+    </section>
+
+    <section style="margin-top: 50px;">
+      <h2 style="font-size: 2rem; font-weight: 600; text-align: center; margin-bottom: 20px; color: #ffffff;">
+        👨‍💻 Who Built This?
+      </h2>
+      <p style="font-size: 1.1rem; color: #ccc; line-height: 1.7; text-align: center; max-width: 800px; margin: 0 auto;">
+        TemporaryMail was built by <strong>Diljith</strong>, a passionate web developer who loves creating tools that protect user privacy and improve internet experience.
+        Learn more at <a href="https://diljith.in" style="color: #1e90ff; text-decoration: none;">diljith.in</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links hide-on-mobile">
+        <a href="privacy.html">Terms & Privacy</a>
+        <a href="service.html">Services</a>
+        <a href="https://diljith.in/">Let's Connect</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Diljith. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <style>
+     @media (max-width: 768px) {
+      .hamburger-menu {
+        display: block !important;
+        z-index: 1001;
+      }
+
+      .nav-links {
+        display: none !important;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        flex-direction: column;
+        background: #1a1b26;
+        padding: 20px 10px;
+        width: 100%;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+        z-index: 1000;
+      }
+
+      .nav-links.active {
+        display: flex !important;
+      }
+
+      .nav-links li {
+        margin: 15px 0;
+      }
+
+      .btn-header {
+        display: none !important;
+      }
+
+      .footer-links {
+        display: none !important;
+      }
+    }
+  </style>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
